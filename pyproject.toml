@@ -1,0 +1,11 @@
+[project]
+name = "ann-classification-churn-prediction"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "streamlit",
+    "tensorflow==2.17.0",
+    "pandas",
+    "numpy",
+    "scikit-learn"
+]
